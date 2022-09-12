@@ -1,24 +1,38 @@
-<li>
-  <a href="#">Accueil</a>
-</li>
-<li>
-  <%= link_to "A propos","/apropos" %>
-</li>
-<li>
-  <%= link_to "Contact moi", "/contacts" %>
-</li>
-<li>
-  <%= link_to 'Portfolio', '/portfolio' %>
-</li>
-<br>
-<!-- Git hub and Linkdln-->
-<li>
+<div class="container">
+  <!-- HEADER -->
+  <div class="header d-flex justify-content-between border">
+    <!-- LOGO -->
+    <div class="">
+      <h6>
+        "coucou"
+      </h6>
+    </div>
+    <!-- NAV -->
+    <div class="">
+      <ul class="d-flex nav-bar">
+        <li>
+          <a href="#">Accueil</a>
+        </li>
+        <li>
+          <%= link_to "A propos","/apropos"%>
+        </li>
+        <li>
+          <%= link_to "Contact moi", "/contacts"%>
+        </li>
+        <li>
+          <%= link_to 'Portfolio', '/portfolio', class: "p-2"%>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- CONTACTS -->
+
+
   <%= link_to 'https://github.com/Lydiasou', target: :_blank do %>
     <i class="fa-brands fa-square-git"></i>
   <% end %>
-</li>
-<li>
   <%= link_to 'https://www.linkedin.com/in/lydiasoula/', target: :_blank  do %>
     <i class="fa-brands fa-linkedin"></i>
   <% end %>
-</li>
+</div>
