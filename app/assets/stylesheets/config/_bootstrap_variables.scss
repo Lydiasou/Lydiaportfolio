@@ -6,11 +6,11 @@
 // General style
 $font-family-sans-serif:  $body-font;
 $headings-font-family:    $headers-font;
-$body-bg:                 $fall;
+$body-bg:                linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 $font-size-base: 1rem;
 
 // Colors
-$body-color: $nude;
+$body-color: $grey;
 $primary:    $blue;
 $success:    $green;
 $info:       $yellow;
