@@ -77,3 +77,5 @@ group :test do
 end
 ################################ MINE #############################################
 gem "dotenv-rails", groups: [:development, :test]
+
+gem "cloudinary"
