@@ -75,3 +75,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+################################ MINE #############################################
+gem "dotenv-rails", groups: [:development, :test]
+
+gem "cloudinary"
