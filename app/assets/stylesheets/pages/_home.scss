@@ -1,9 +1,13 @@
 // Specific CSS for your home-page
 .container {
-  background-color: $purple;
+  background: linear-gradient(#B1B2FF, #AAC4FF);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  height: 650px;
+  height: 1000px;
   padding: 0;
+}
+
+.background-animation {
+
 }
