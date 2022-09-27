@@ -1,24 +1,55 @@
-<h6>contact me</h6>
-<li>
-  <%= link_to 'Accueil', '../' %>
-</li>
-<li>
-  <%= link_to "A propos","/apropos" %>
-</li>
-<li>
-  <a href="#"> Contact moi</a>
-</li>
-<li>
-  <%= link_to 'Portfolio', '/portfolio' %>
-</li>
-<!-- Git hub and Linkdln-->
-<li>
-  <%= link_to 'https://github.com/Lydiasou', target: :_blank do %>
-    <i class="fa-brands fa-square-git"></i>
-  <% end %>
-</li>
-<li>
-  <%= link_to 'https://www.linkedin.com/in/lydiasoula/', target: :_blank  do %>
-    <i class="fa-brands fa-linkedin"></i>
-  <% end %>
-</li>
+<div class="container">
+  <div class="header d-flex justify-content-between">
+    <div class="d-flex align-items-center">
+      <ul class="d-flex nav-bar mt-3">
+        <li>
+          <%= link_to 'Accueil', '../' %>
+        </li>
+        <li>
+          <%= link_to "A propos","/apropos"%>
+        </li>
+        <li>
+          <a href="#">Contact moi</a>
+        </li>
+        <%# <li>
+          <%= link_to 'Portfolio', '/portfolio', class: ""%>
+        <%# </li> %>
+      </ul>
+    </div>
+    <div class="d-flex justify-content-end">
+      <ul class="d-flex nav-icons">
+        <li>
+          <%= link_to 'https://github.com/Lydiasou', target: :_blank do %>
+            <i class="fa-brands fa-github"></i>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to 'https://www.linkedin.com/in/lydiasoula/', target: :_blank  do %>
+            <i class="fa-brands fa-linkedin"></i>
+          <% end %>
+        </li>
+      </ul>
+      <div class="logo-border">
+        <h6 class="logo">
+          <%= cl_image_tag("https://res.cloudinary.com/dsc1uchot/image/upload/v1663690029/Portfolio/Cool_Kids_-_Avatar_gjgmuv.png", width: 50, height: 50, crop: :fill) %>
+        </h6>
+      </div>
+    </div>
+  </div>
+  <div class="background-animation">
+    <h2>Contact me </h2>
+    <div class="">
+      <form action="https://formsubmit.co/lydiasoula@outlook.com" method="POST">
+        <label for="name">Comment t'appelles-tu ?</label>
+        <input type="text" name="name" placeholder="Mark Zuckenberg" required>
+        <label for="email">Je peux te répondre par e-mail ! </label>
+        <input type="email" name="email" placeholder= "marcky@fb.com" required>
+        <label for="societe">Pour quelle organisation à tu besoin de mes services ?</label>
+        <input type="societe" name="societe" placeholder="Facebook">
+        <label for="subject">Dit moi en plus sur ton projet !</label>
+        <input type="subject" name="subject" placeholder="Automatisation de mes messages messenger dans le cadre..." required>
+        <button type="submit">Je me lance ! </button>
+      </form>
+    </div>
+  </div>
+</div>
