@@ -11,9 +11,9 @@
         <li>
           <%= link_to "Contact moi", "/contacts"%>
         </li>
-        <li>
+        <%# <li>
           <%= link_to 'Portfolio', '/portfolio', class: ""%>
-        </li>
+        <%# </li> %> 
       </ul>
     </div>
     <div class="d-flex justify-content-end">
@@ -36,18 +36,21 @@
       </div>
     </div>
   </div>
-  <div class="row background-animation col-6">
-    <%= cl_image_tag("https://res.cloudinary.com/dsc1uchot/image/upload/v1664180891/Portfolio/Cool_Kids_-_High_Tech_1_xjjaa7.png")%>
+  <div class="background-animation">
+    <div class="image-size">
+      <%= cl_image_tag("https://res.cloudinary.com/dsc1uchot/image/upload/v1664180891/Portfolio/Cool_Kids_-_High_Tech_1_xjjaa7.png")%>
+    </div>
     <div class="box-presentation p-5">
       <h2>
-        Bienvenue
+      Bienvenue
       </h2>
       <br>
       <p>
-        Lorem ipsum dolor sit amet. Et itaque sint hic dolor laborum 33 molestias magni et fuga illum.
-        Et voluptates officiis eum consequatur quia non provident atque et fuga quasi a deserunt distinctio
-        ut dolor omnis et quae nulla.
+      Lorem ipsum dolor sit amet. Et itaque sint hic dolor laborum 33 molestias magni et fuga illum.
+      Et voluptates officiis eum consequatur quia non provident atque et fuga quasi a deserunt distinctio
+      ut dolor omnis et quae nulla.
       </p>
+      <%= link_to 'Entrez dans mon univers ! ', '/portfolio', class: "btn btn-secondary"%>
     </div>
   </div>
 </div>
