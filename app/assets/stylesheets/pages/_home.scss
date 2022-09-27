@@ -1,9 +1,40 @@
 // Specific CSS for your home-page
 .container {
-  background-color: $purple;
+  background: linear-gradient(#B1B2FF, #AAC4FF);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  height: 650px;
+  height: 1000px;
   padding: 0;
 }
+
+.background-animation {
+  background-color: $light-purple;
+  opacity: 0.45;
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 1100px;
+  height: 600px;
+  padding: 50px;
+  position: relative;
+}
+
+.box-presentation {
+  width: 500px;
+  height: 350px;
+  background-color: $light-purple;
+  transform: translateX(700px);
+}
+
+//#test {
+ // opacity: 1;
+//}
+//.background-animation::before {
+ // img {
+ //   opacity: 1;
+ // }
+//}
+//.animation {
+  //padding: 100px;
+ // opacity: 1;
+//}
