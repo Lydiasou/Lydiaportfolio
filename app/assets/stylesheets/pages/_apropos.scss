@@ -1,0 +1,49 @@
+.profile-picture {
+  flex: 1;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.presentation {
+width: 50%;
+padding: 1%;
+text-align: justify;
+margin-top: 1%;
+}
+
+
+.js-size {
+  width: 10%;
+  margin: 4%;
+}
+
+.git-size {
+  width: 12%;
+  margin: 4%;
+
+}
+
+.heroku-size {
+  margin: 4%;
+  width: 9%;
+}
+
+.ruby-size {
+  margin: 4%;
+  width: 10%;
+}
+
+.css-size {
+  margin: 4%;
+  width: 10%;
+}
+
+.img-profile-picture {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 10%;
+  margin-bottom: 10px;
+
+}
