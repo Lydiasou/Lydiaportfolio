@@ -11,19 +11,34 @@
       <%= link_to 'Accueil', '../' %>
   <%# </section>
 </article> %>
-<div class="container">
+<div class="port-container">
   <div class="slider-site">
-      <h5>Cosmos</h5>
-      <%=link_to 'https://cosmos-camillervr.herokuapp.com/', target: :_blank  do %>
-        <p>cosmos</p>
+    <div class="container-cosmos">
+      <div class="back-accueil">
+        <%= link_to 'Accueil', '../' %>
+      </div>
+      <div id="logo">
+        <h2>cosmos</h2>
+      </div>
+      <div class="row d-flex">
+        <div class="description-cosmos">
+          <p>Eum nulla facere 33 voluptatem voluptate et dignissimos labore eum tempora atque et consequatur galisum sit galisum quisquam At delectus quae. Et itaque ipsum qui neque molestiae ab quia dolore ex nihil officiis sit repellat quibusdam sit voluptas odit. Non velit galisum ut corporis doloribus eum magnam enim sit libero sequi! Et nihil facere aut mollitia quia et dolorum nulla.
+          Sed tempora ducimus cum necessitatibus nulla ut magni quod! Rem consequuntur sapiente sit tenetur sunt eum laborum ipsam et itaque esse sit laboriosam nesciunt est commodi aliquid et possimus dolore. A obcaecati aliquid id eligendi soluta ut totam labore ut omnis quia ut fuga dolores. Qui dolores odio ab veniam illum sit iure obcaecati eos quaerat dolore 33 obcaecati voluptates At deleniti consequatur.</p>
+        </div>
+        <div class="carousel">
+          <h1>TEST</h1>
+        </div>
+      </div>
+      <%=link_to 'https://cosmos-camillervr.herokuapp.com/', class: "btn btn-warning", target: :_blank  do %>
+        <p>Visiter Cosmos</p>
       <% end %>
-      <%= link_to 'Accueil', '../' %>
+    </div>
   </div>
   <div class="slider-site">
-      <h5>Flipeeasy</h5>
-      <%=link_to '#', target: :_blank  do %>
-        <p>Flippe</p>
-      <% end %>
-      <%= link_to 'Accueil', '../' %>
+    <h5>Flipeeasy</h5>
+    <%=link_to '#', target: :_blank  do %>
+      <p>Flippe</p>
+    <% end %>
+    <%= link_to 'Accueil', '../' %>
   </div>
 </div>
