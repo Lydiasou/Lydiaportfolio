@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll
+}
+
+.slider-site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  height: 100vh;
+  scroll-snap-align: center;
+}

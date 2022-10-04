@@ -1,26 +1,29 @@
-<h6>c'est ici</h6>
-<%= link_to 'Accueil', '../' %>
-
-<!-- Cosmos Project -->
-<%= link_to 'https://cosmos-camillervr.herokuapp.com/', target: :_blank  do %>
-  <p>cosmos</p>
-<% end %>
-<!-- Git hub and Linkdln-->
-<li>
-  <%= link_to 'https://github.com/Lydiasou', target: :_blank do %>
-    <i class="fa-brands fa-square-git"></i>
-  <% end %>
-</li>
-<li>
-  <%= link_to 'https://www.linkedin.com/in/lydiasoula/', target: :_blank  do %>
-    <i class="fa-brands fa-linkedin"></i>
-  <% end %>
-</li>
-<br>
-<br>
-<nav>
-  <a href="#">Cosmos</a>
-  <a href="#">Flipee</a>
-</nav>
-<section class="section-cosmos">Cosmos</section>
-<section class="section-flipee">Flipee</section>
+<%# <article class="scroller">
+  <section>
+    <h2>Section one</h2>
+    <%= link_to 'Accueil', '../' %>
+    <%#=link_to 'https://cosmos-camillervr.herokuapp.com/', target: :_blank  do %>
+      <%# <p>cosmos</p> %>
+    <%# <% end %>
+  <%# </section> %>
+  <%# <section> %>
+      <%# <h2>Section two</h2>
+      <%= link_to 'Accueil', '../' %>
+  <%# </section>
+</article> %>
+<div class="container">
+  <div class="slider-site">
+      <h5>Cosmos</h5>
+      <%=link_to 'https://cosmos-camillervr.herokuapp.com/', target: :_blank  do %>
+        <p>cosmos</p>
+      <% end %>
+      <%= link_to 'Accueil', '../' %>
+  </div>
+  <div class="slider-site">
+      <h5>Flipeeasy</h5>
+      <%=link_to '#', target: :_blank  do %>
+        <p>Flippe</p>
+      <% end %>
+      <%= link_to 'Accueil', '../' %>
+  </div>
+</div>
