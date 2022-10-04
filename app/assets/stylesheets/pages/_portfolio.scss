@@ -1,0 +1,69 @@
+.port-container {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll
+}
+
+.slider-site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.slider-site:nth-child(1){background: #000000;}
+.slider-site:nth-child(2){background: #85586F;}
+
+////////////////////////////////////COSMOS//////////////////////////////////////////////////////
+
+.container-cosmos {
+  width: 100%;
+  height: 100%;
+  margin: 30px;
+  padding: 30px;
+}
+
+#logo {
+  color: white;
+  opacity: 1;
+  font-size: 38px;
+  letter-spacing: 7px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  margin-top: 15px;
+  padding-left: 40px;
+  background-image: url('https://res.cloudinary.com/dsc1uchot/image/upload/v1653558710/logo/logo_b9uzzl.png');
+  background-size: 27px;
+  background-repeat: no-repeat;
+}
+
+.description-cosmos {
+  width: 30%;
+  text-align: justify;
+  margin-top: 1%;
+  flex: 1;
+}
+
+.carousel {
+  flex: 2;
+}
+
+.back-accueil {
+  a {
+    text-decoration: underline;
+    color: white;
+  }
+  a:hover {
+    color:#F2DF3A;
+  }
+}
+
+.btn-warning {
+  width: 155px;
+  height: 40px;
+  color: white;
+  margin-left: 80%;
+}

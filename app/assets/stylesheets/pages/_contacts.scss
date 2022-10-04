@@ -1,7 +1,7 @@
 .box-form {
   width: 900px;
   height: 500px;
-  background-color: white;
+  background-color: #EDEEF7;
   padding-top: 25px;
   //box-shadow: 12px 12px 2px 1px $purple;
   position: relative;
@@ -11,7 +11,6 @@
   padding-left: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 .name {
   width: 220px;
@@ -55,9 +54,8 @@
   top: 50px;
   left: 60px;
   padding: 50px;
-  background-color: #645CAA;
+  background-color: white;
   position: relative;
   z-index: 3;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color: white;
 }
